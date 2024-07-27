@@ -9,7 +9,7 @@ body ,html{
     width: 100%;
 }
 .main{
-    height: 1500px;
+    height: 3000px;
 }
 .frontpage{
     height: 100vh;
@@ -114,4 +114,73 @@ button:hover{
     text-align: center;
     line-height: 80px;
     font-weight: 900;
+}
+.types{
+    /* border: 1px solid red; */
+    margin:0px 45px ;
+    height: 515px;
+    display: flex;
+    gap: 1.5%;
+}
+.type{
+    height: 515px;
+    width: 32.5%;
+    /* border: 1px solid black; */
+}
+.type img{
+    width: 100%;
+}
+.type h4{
+    margin-top: 21px;
+    font-size: 17px;
+}
+.type h2{
+    margin-top: 11px;
+    font-size: 29px;
+}
+.updates{
+    margin:0px 40px ;
+    height: 705px;
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+}
+.update{
+    height: 705px;
+    width: 32.5%;
+}
+.update img{
+    width: 100%;
+    height: 440px;
+}
+.update h4 ,h1,p{
+    margin-top: 20px;
+}
+.update h1{
+    font-size: 30px;
+}
+.update p{
+    font-size: 21px;
+    text-align:left;
+    line-height: 30px;
+    font-weight: 100;
+}   
+.btn{
+    height: 75px;
+    width: 200px;
+    background-color: #FF6600;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 80px 0px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #FF6600;
+    border: 1px solid #FF6600;
 }
