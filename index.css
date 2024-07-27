@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: blender pro medium;
+}
+body ,html{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 1500px;
+}
+.frontpage{
+    height: 100vh;
+    background-image: url(assets/background\ 2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.navleft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 850px;
+    margin-left: 40px;
+    font-weight: 100;
+}
+.navright{
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.navright img{
+    height: 140px;
+}
+.navright i{
+    font-size: 20px;
+    color: #FF6600;
+}
+/* .heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} */
+.heading h1{
+    font-size: 85px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.heading h2{
+    font-size: 20px;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+button{
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    /* transform: translate(-50%, -50%); */
+    width: 200px;
+    height: 70px;
+    background-color: #FF6600;
+    color: white;
+    border: none;
+    transition: 0.3s all;
+    transition-delay: 0ms;
+}
+button:hover{
+    background-color: white;
+    color: #FF6600;
+}
+.hori-img{
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.hori-img img{
+    height: 400px;
+    filter: brightness(70%);
+}
+
+.text{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+}
+.text h1{
+    font-size: 85px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 900;
+}
