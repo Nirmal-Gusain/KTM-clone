@@ -1,16 +1,18 @@
+@font-face {
+    font-family: "BlenderPro";
+    src: url(assets/BlenderPro-Medium.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: blender pro medium;
+    font-family: blender pro;
 }
 body ,html{
     height: 100%;
     width: 100%;
 }
-.main{
-    height: 3000px;
-}
+
 .frontpage{
     height: 100vh;
     background-image: url(assets/background\ 2.jpeg);
@@ -183,4 +185,133 @@ button:hover{
     background-color: white;
     color: #FF6600;
     border: 1px solid #FF6600;
+}
+.social{
+    height: 540px;
+    display: flex;
+    margin: 0px 40px;
+}
+.left{
+    height: 540px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.one{
+    height: 270px;
+    width: 350px;
+}
+.one img{
+    object-fit: cover;
+    height: 270px;
+    width: 360px;
+}
+.right{
+    height: 540px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    background-color: black;
+    color: white;
+}
+.right h1{
+    font-size: 50px;
+}
+.right h3{
+    color: rgb(118, 118, 118);
+    font-size: 20px;
+}
+.follow{
+    height: 70px;
+    width: 180px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.follow h3{
+    color: white;
+    font-size: 20px;
+}
+.join{
+    height: 215px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items:center  ;
+    gap: 20px;
+}
+.join h3{
+    font-size: 21.5px;
+}
+.btn2{
+    height: 70px;
+    width: 150px;
+    border: 1px solid #FF6600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF6600;
+}
+.para p{
+    padding: 40px 380px;
+    height: 245px;
+    margin-top: 0px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(185, 185, 185);
+}
+.footer{
+    background-color: black;
+    height: 635px;
+}
+.elements{
+    border-bottom: 1px solid white;
+    height: 525px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    color: white;
+}
+.element{
+    height: 400px;
+    width: 250px;
+    margin-top: 86px;
+}
+.element h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    
+}
+.element p{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 0px;
+    line-height: 34px;
+}
+.element p:hover{
+    color: #FF6600;
+}
+.soc{
+    display: flex;
+    justify-content: space-between;
+    font-size: 27px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px;
+}
+.copyright h4{
+    color: white;
+    font-weight: 100;
+}
+.back{
+    color: #FF6600;
+    margin-left: 20px;
 }
