@@ -1,12 +1,12 @@
 @font-face {
     font-family: "BlenderPro";
-    src: url(assets/BlenderPro-Medium.ttf);
+    src: url(assets/BlenderPro-Medium.woff);
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: blender pro;
+    font-family: "BlenderPro";
 }
 body ,html{
     height: 100%;
